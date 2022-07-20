@@ -8,7 +8,7 @@ int main() {
 	cin >> day; //10
 	cin >> num; // 7
 
-	string* sit = new string[day];
+	string* sit = new string[day]; //
 	
 	for (int i = 0; i < day; i++) {
 		cin >> sit[i];
