@@ -13,7 +13,7 @@ int solution(int info[], int edges[][2]) {
 	int sheep = 1;
 	int wolf = 0;
 	int start = 0;
-	int count = 0;
+	int count = 0; //
 	while (1) {
 		info[0] = 2;
 
