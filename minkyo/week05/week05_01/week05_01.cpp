@@ -9,7 +9,7 @@
 #include <string>
 using namespace std;
 
-int solution(int number, int* lost, int reserve[]) {
+int solution(int number, int* lost, int reserve[]) { //
 	int answer = number;
 	for (int i = 0; i < 20; i++) {					// 전체 학생들 수에서 도난당한 온 학생 수만큼 빼줌
 		if ((lost[i] > 0) && (lost[i] <= 20)) {		// c++에서 배열을 매개변수로 사용할 경우 배열을 포인터로 인식하기에
